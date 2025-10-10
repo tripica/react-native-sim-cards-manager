@@ -1,4 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.reactnativesimcardsmanager">
+  xmlns:tools="http://schemas.android.com/tools"
+  package="com.reactnativesimcardsmanager">
 
+  <uses-permission android:name="android.permission.CALL_PHONE" />
+  <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.WRITE_EMBEDDED_SUBSCRIPTIONS"
+    tools:ignore="ProtectedPermissions" />
 </manifest>
